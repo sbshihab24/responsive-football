@@ -1,0 +1,58 @@
+/* Font Style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*---- Common --- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+/*---- Banner Sryle ------- */
+section{
+    margin-bottom: 60px;
+}
+.top-banner{
+    background-color: #2D25A0;
+
+}
+.banner-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.banner-area img{
+    width: 556px;
+    margin-top: 100px;
+}
+
+.banner-area h1{
+    color: #FFFFFF;
+    width: 485px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.banner-text a {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    opacity:1 ;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.banner-text a :hover{
+    opacity: 1 ;
+
+}
