@@ -56,3 +56,38 @@ section{
     opacity: 1 ;
 
 }
+/************ Banner Style End ************ */
+
+
+
+.player-main-div {
+    box-shadow: 2px 2px 2px 2px #ebe5e5;
+    border-radius: 5%;
+    padding: 20px 20px 20px 20px;
+    width: 290px;
+    height: 400px;
+    margin-left: 88px;
+    border-style: none;
+    background-color: lavender;
+   margin-bottom: 50px;
+   
+
+}
+.player-main-div  b{
+    font-size: 25px;
+}
+.all-playres{
+   
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   
+   
+}
+.container-section img{
+
+    width: 100%;
+    border-radius: 15px;
+}
+        /*****************
+                Main Section Style End 
+                        **************************/
