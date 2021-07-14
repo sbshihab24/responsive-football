@@ -76,7 +76,7 @@ section{
 .player-main-div  b{
     font-size: 25px;
 }
-.all-playres{
+.all-players{
    
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -91,3 +91,120 @@ section{
         /*****************
                 Main Section Style End 
                         **************************/
+
+                        /* Footer Style Start  */
+
+   footer{
+       text-align: center;
+       margin-top: 70px;
+
+  }                     
+                         
+.footer-logo{
+     width: 100%;
+     height: auto;
+ }
+
+.footer img{       
+    width: 483px; 
+    height: 110px;              
+} 
+.social-icon{
+    padding: 20px 0;
+}  
+.social-icon  i {
+    padding: 7.5px 0;
+    color: #969bab;
+  }
+  footer p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 40px;
+  }  
+  
+  /*************************
+        Footer Style End
+   ***************************/
+
+
+
+
+/*----------------------- 
+This is media query
+----------------------- */
+@media only screen and (max-width:688px) {
+    .top-banner{
+        width: 100%;
+    }
+    .all-players{
+        
+        grid-template-columns: repeat(1, 1fr) ;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .footer-logo{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .footer-logo img{
+width:50%;
+    
+}
+.top-banner img{
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+}
+.banner-text h1{
+    margin-left: 10px;
+}
+   .banner-area{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+
+   html,body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+}
+
+
+ /*----------------------------------------- 
+  This is hover style
+ --------------------------------------- */
+ .single-photo:hover .photo{
+    transform: scale(0.5);
+    transition: transform 2s;
+
+}
+.single-photo:hover{
+   
+    background-color: transparent;
+}
+.single-photo {
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+   
+    margin: 15px;
+    overflow: hidden;
+
+}
+
+.photo img {
+    width: 100%;
+    
+
+}
+/* -------------------------
+ hover style end
+--------------------------- */
